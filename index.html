@@ -7,7 +7,7 @@
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
-
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/9ab99d3462.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,20 +28,18 @@ alert ("¿Están listos para viajar por el mundo?")
 
 
 
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: red;">
     <div class="container-fluid">
-        <a href="#" class="navbar-brand">
-            <img src="./css/IMG/bande.png" alt="CoolBrand">
-        </a>
+      
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
-                <a href="index.html" class="nav-item nav-link active" id="inicio">Incio</a>
-                <a href="contactos.html" class="nav-item nav-link" id="contactos">Contactos</a>
-                <a href="https://www.youtube.com/watch?v=-rIOmLQi98s" class="nav-item nav-link" id="musica">Música</a>
-                <a href="https://www.youtube.com/watch?v=e2OQ6X1UHVY" class="nav-item nav-link" id="mas">Mas recetas</a>
+                <a href="index.html" class="nav-item nav-link active">Incio</a>
+                <a href="contactos.html" class="nav-item nav-link">Contactos</a>
+                <a href="https://www.youtube.com/watch?v=-rIOmLQi98s" class="nav-item nav-link">Música</a>
+                <a href="https://www.youtube.com/watch?v=e2OQ6X1UHVY" class="nav-item nav-link">Mas recetas</a>
 
             </div>
         </div>
@@ -49,14 +47,11 @@ alert ("¿Están listos para viajar por el mundo?")
 </nav>
 
 <header>
-  <div class="cambiode fondo">
-    <button type="button" class="btn btn-warning" onclick="cambiarfondo1()">modo claro</button>
-
      <button type="button" class="btn btn-warning" onclick="cambiarfondo()">modo nocturno</button>
-  </div>
+
 
   <div class="tituloprincipal">
-    <h1 class="titulogrande" id="titulo">Recetas de Arabia</h1>
+    <h1 class="titulogrande">Recetas de Arabia</h1>
   </div>
 
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -107,8 +102,8 @@ alert ("¿Están listos para viajar por el mundo?")
 <section class="historia">
 
  <div class=" intro">
-  <h2 class="titulof" id="fala" > Hoy presentamos: FALAFELS</h2>
-  <h4 class="textohistoria" id="hysto">Aunque se desconoce su verdadero origen, algunos afirman que data de las épocas bíblicas.
+  <h2 class="titulof"> Hoy presentamos: FALAFELS</h2>
+  <h4 class="textohistoria">Aunque se desconoce su verdadero origen, algunos afirman que data de las épocas bíblicas.
 Se discute aún si proviene de la India, de Egipto o de Arabia, si bien la mayoría se inclina por Arabia, lo cierto es que el falafel es una comida tradicional de Oriente Medio que se realiza con habas, garbanzos o una mezcla de ambos.
 Curiosamente, su etimología proviene de la palabra árabe filfil que significa "pimiento".El falafel que más ha triunfado finalmente es el que se elabora únicamente con garbanzos, tanto en Oriente Medio como en los países en los que este plato se ha introducido,
 servidos en pan pita, acompañadas de tahina (salsa de sésamo), hummus (crema de garbanzo) y variedad de ensaladas.</h4>
@@ -122,12 +117,10 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 
 <section class="central">
-<div class="recetatotal">
-
 
 <div class="ingredientes">
-    <h4 class="ingre" id="ingredientes">Ingredientes</h4>
-<ul id="elementos">
+    <h4 class="ingre">Ingredientes</h4>
+<ul>
 <li>500 g de garbanzos crudos</li>
 <li>1 cebolla</li>
 <li>3 dientes de ajo</li>
@@ -144,9 +137,9 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="receta">
-  <h4 class="prep" id="preparacion">Preparación</h4>
+  <h4 class="prep">Preparación</h4>
   <br>
-<ol id="hacer" class="hacer">
+<ol class="hacer">
 <li>remojar los garbanzos crudos durante 24 hs</li>
 <li>escurrir los garbanzos, mixearlos con la cebolla, los ajos, el cilantro y el perejil </li>
 <li>poner la mezcla en un bowl, agregar sal, pimienta, comino, el bicarbonato, el pan rallado para espesar y mezclar</li>
@@ -156,10 +149,8 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </ol>
 </div>
 
-</div>
-
 <aside class="datos">
-    <iframe class="mapa" src="https://www.google.com/maps/d/embed?mid=1nMRKjdUaVWBeXx0-TWVU6i2HjGYZ8TlD&ehbc=2E312F"
+    <iframe src="https://www.google.com/maps/d/embed?mid=1nMRKjdUaVWBeXx0-TWVU6i2HjGYZ8TlD&ehbc=2E312F"
     width="480" height="480"></iframe>
 </aside>
 </section>
@@ -214,7 +205,8 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <div class="box-autor">
       <p id="rocio">¿Quién es el autor de este proyecto?</p>
       <button type="button" onclick="autor()">Descubrir</button>
-    </div>
+
+          </div>
 
 </div>
 
