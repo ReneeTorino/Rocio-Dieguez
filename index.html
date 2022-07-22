@@ -30,7 +30,7 @@ alert ("¿Están listos para viajar por el mundo?")
 
       <nav class="navbar navbar-expand-lg navbar-light" style="background-color: red;">
     <div class="container-fluid">
-      
+
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,11 +47,10 @@ alert ("¿Están listos para viajar por el mundo?")
 </nav>
 
 <header>
-     <button type="button" class="btn btn-warning" onclick="cambiarfondo()">modo nocturno</button>
-
-
+  <button type="button" onclick="nightmode()" id="button" class="mode">Modo oscuro</button>
+  <button type="button" onclick="daymode()" id="button" class="mode">Modo claro</button>
   <div class="tituloprincipal">
-    <h1 class="titulogrande">Recetas de Arabia</h1>
+    <h1 id="titulogrande"class="titulogrande">Recetas de Arabia</h1>
   </div>
 
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -102,8 +101,8 @@ alert ("¿Están listos para viajar por el mundo?")
 <section class="historia">
 
  <div class=" intro">
-  <h2 class="titulof"> Hoy presentamos: FALAFELS</h2>
-  <h4 class="textohistoria">Aunque se desconoce su verdadero origen, algunos afirman que data de las épocas bíblicas.
+  <h2 id="titulof"class="titulof"> Hoy presentamos: FALAFELS</h2>
+  <h4 id="textohistoria" class="textohistoria">Aunque se desconoce su verdadero origen, algunos afirman que data de las épocas bíblicas.
 Se discute aún si proviene de la India, de Egipto o de Arabia, si bien la mayoría se inclina por Arabia, lo cierto es que el falafel es una comida tradicional de Oriente Medio que se realiza con habas, garbanzos o una mezcla de ambos.
 Curiosamente, su etimología proviene de la palabra árabe filfil que significa "pimiento".El falafel que más ha triunfado finalmente es el que se elabora únicamente con garbanzos, tanto en Oriente Medio como en los países en los que este plato se ha introducido,
 servidos en pan pita, acompañadas de tahina (salsa de sésamo), hummus (crema de garbanzo) y variedad de ensaladas.</h4>
@@ -119,8 +118,8 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <section class="central">
 
 <div class="ingredientes">
-    <h4 class="ingre">Ingredientes</h4>
-<ul>
+    <h4 id="ingre"class="ingre">Ingredientes</h4>
+<ul id="lista">
 <li>500 g de garbanzos crudos</li>
 <li>1 cebolla</li>
 <li>3 dientes de ajo</li>
@@ -136,10 +135,10 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </ul>
 </div>
 
-<div class="receta">
-  <h4 class="prep">Preparación</h4>
+<div id="receta"class="receta">
+  <h4 id="prep" class="prep">Preparación</h4>
   <br>
-<ol class="hacer">
+<ol id="hacer"class="hacer">
 <li>remojar los garbanzos crudos durante 24 hs</li>
 <li>escurrir los garbanzos, mixearlos con la cebolla, los ajos, el cilantro y el perejil </li>
 <li>poner la mezcla en un bowl, agregar sal, pimienta, comino, el bicarbonato, el pan rallado para espesar y mezclar</li>
